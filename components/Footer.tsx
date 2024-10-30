@@ -47,6 +47,11 @@ const Footer = () => {
             </div>
           ))}
         </div>
+        <div>
+          <p className="md:text-base text-sm md:font-normal font-light">
+            Credit - Javascript Mastery
+          </p>
+        </div>
       </div>
     </footer>
   );
