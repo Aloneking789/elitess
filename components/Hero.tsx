@@ -230,8 +230,8 @@ const FloatingIcons = () => {
             key={index}
             className="absolute text-2xl md:text-3xl opacity-30"
             initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              // x: Math.random() * window.innerWidth,
+              // y: Math.random() * window.innerHeight,
             }}
             animate={{
               y: [0, -20, 0],
@@ -296,8 +296,8 @@ const VectorElements = () => {
           key={index}
           className="absolute"
           initial={{
-            x: Math.random() * window.innerWidth,
-            y: Math.random() * window.innerHeight,
+            // x: Math.random() * window.innerWidth,
+            // y: Math.random() * window.innerHeight,
           }}
           animate={{
             y: [0, -30, 0],
