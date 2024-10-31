@@ -83,7 +83,7 @@ export const TMembers = [
     id: 2,
     title: "Abhay Pandey",
     des: "Google Developer Group Organizer at DDU, known for driving growth through technical skills in Firebase and React.js. His leadership fosters a thriving, knowledge-sharing tech community within the Google Developer Students Club",
-    img: "/abhay.jpeg",
+    img: "/abhay.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.linkedin.com/in/abhay-pandey-595818253/",
   },
