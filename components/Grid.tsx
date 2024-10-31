@@ -18,7 +18,7 @@ const Grid = () => {
               key={item.id}
             >
               <PinContainer title="Elite" href="https://twitter.com">
-                <div className="relative flex items-center justify-center overflow-hidden h-[25vh] lg:h-[38vh] mb-10">
+                <div className="relative flex items-center justify-center overflow-hidden h-[25vh] sm:h-[30vh] md:h-[35vh] lg:h-[38vh] mb-10">
                   <div
                     className="relative w-full h-full overflow-hidden rounded-3xl"
                     style={{ backgroundColor: "#13162D" }}
@@ -28,7 +28,7 @@ const Grid = () => {
                   <img
                     src={item.img}
                     alt="cover"
-                    className="z-10 absolute bottom-0"
+                    className="z-10 absolute bottom-0 object-cover"
                   />
                 </div>
 

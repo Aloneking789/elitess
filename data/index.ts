@@ -100,7 +100,7 @@ export const TMembers = [
     id: 4,
     title: "Vishnu Dubey",
     des: "Passionate Full Stack Developer skilled in Node.js, Express.js, MongoDB, and React.js. Dedicated to building intuitive, scalable applications, Vishnu is an active community contributor through hackathons and open-source projects",
-    img: "/vishnu.jpeg",
+    img: "/vishnu.jpg",
     // img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://www.linkedin.com/in/vishnu-dubey-2423b0254/",
