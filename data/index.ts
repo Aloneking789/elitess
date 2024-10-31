@@ -69,6 +69,43 @@ export const gridItems = [
   },
 ];
 
+export const TMembers = [
+  {
+    id: 1,
+    title: "Abhijeet Gupta",
+    des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
+    // img: "/p1.svg",
+    img: "/abhi.jpeg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
+  },
+  {
+    id: 2,
+    title: "Abhay Pandey",
+    des: "Google Developer Group Organizer at DDU, known for driving growth through technical skills in Firebase and React.js. His leadership fosters a thriving, knowledge-sharing tech community within the Google Developer Students Club",
+    img: "/abhay.jpeg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://www.linkedin.com/in/abhay-pandey-595818253/",
+  },
+  {
+    id: 3,
+    title: "Vaishnavi Singh",
+    des: "Experienced Full Stack Developer with expertise in Node.js, Express.js, MongoDB, and React.js, focused on creating reliable, impactful web applications. She is deeply engaged in the tech community, contributing through hackathons and knowledge sharing.",
+    // img: "/p3.svg",
+    img: "/vaishnavi.jpeg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://www.linkedin.com/in/vaishnavi-singh-33a5b2271/",
+  },
+  {
+    id: 4,
+    title: "Vishnu Dubey",
+    des: "Passionate Full Stack Developer skilled in Node.js, Express.js, MongoDB, and React.js. Dedicated to building intuitive, scalable applications, Vishnu is an active community contributor through hackathons and open-source projects",
+    img: "/vishnu.jpeg",
+    // img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.linkedin.com/in/vishnu-dubey-2423b0254/",
+  },
+];
 export const projects = [
   {
     id: 1,
@@ -110,30 +147,26 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote: "Will be added Soon!!",
-    name: "Work in Progress",
-    title: "XYZ",
+    quote: "In the storms of code and innovation, we navigated through challenges, braved the tides of creativity, and emerged with a third-place victory. This journey has been one of resilience, growth, and a testament to the strength of our ideas.",
+    name: "MERN",
+    title: "devX JMI Hackathon",
   },
   {
-    quote: "Will be added Soon!!",
-    name: "Work in Progress",
-    title: "XYZ",
+    quote: "Through the late nights and relentless debugging, we persevered with passion and purpose, carving our path and securing a proud fifth place. This journey of code and collaboration taught us the art of resilience and refined our skills along the way.",
+    name: "T3 Stack + Research Work & Designing",
+    title: "Vespera Hackathon",
   },
   {
-    quote: "Will be added Soon!!",
-    name: "Work in Progress",
-    title: "XYZ",
+    quote: "In the crucible of CyFuse, we built, broke, and rebuilt—each line of code a lesson, each error a stepping stone. Though not ranked, the experience armed us with invaluable insights, sharpening our skills and fueling our drive for future challenges.",
+    name: "T3 Stack, Research  Work & Designing",
+    title: "IIIT CyFuse Hackathon",
   },
   {
-    quote: "Will be added Soon!!",
-    name: "Work in Progress",
-    title: "XYZ",
-  },
-  {
-    quote: "Will be added Soon!!",
-    name: "Work in Progress",
-    title: "XYZ",
-  },
+    quote: "Venturing into the cosmos of creativity and code, we explored new dimensions with 3.js, Framer, and cutting-edge libraries. This journey was a leap into innovation, where every frame and animation brought us closer to unlocking new possibilities. Though the stars await, our skills and aspirations have already soared.",
+    name: "T3 Stack, 3JS, PostMan API ,3D, 3D Modeling, 3D Animation",
+
+    title: "NASA Hackathon",
+  }
 ];
 
 export const companies = [
@@ -204,13 +237,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link : "https://github.com/ag21o9"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link : "https://x.com/vishnuzdubey"
   },
   {
     id: 3,
     img: "/link.svg",
+    link : "https://www.linkedin.com/company/elite-software-solution"
   },
 ];

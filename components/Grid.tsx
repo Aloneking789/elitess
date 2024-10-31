@@ -1,26 +1,83 @@
-import { gridItems } from "@/data";
-import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+"use client";
+
+import { FaLocationArrow } from "react-icons/fa6";
+import { TMembers } from "@/data";
+import { PinContainer } from "./ui/Pin";
 
 const Grid = () => {
   return (
     <section id="about">
-      <BentoGrid className="w-full py-20">
-        {gridItems.map((item, i) => (
-          <BentoGridItem
-            id={item.id}
-            key={i}
-            title={item.title}
-            description={item.description}
-            // remove icon prop
-            // remove original classname condition
-            className={item.className}
-            img={item.img}
-            imgClassName={item.imgClassName}
-            titleClassName={item.titleClassName}
-            spareImg={item.spareImg}
-          />
-        ))}
-      </BentoGrid>
+      <div className="py-20">
+        <h1 className="heading">
+          Our Precious <span className="text-purple">Team Members</span>
+        </h1>
+        <div className="flex flex-wrap gap-8 justify-center p-4 mt-10">
+          {TMembers.map((item) => (
+            <div
+              className="flex-none w-[20rem] h-[32.5rem] flex items-center justify-center"
+              key={item.id}
+            >
+              <PinContainer title="Elite" href="https://twitter.com">
+                <div className="relative flex items-center justify-center overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                  <div
+                    className="relative w-full h-full overflow-hidden rounded-3xl"
+                    style={{ backgroundColor: "#13162D" }}
+                  >
+                    <img src="/bg.png" alt="bgimg" />
+                  </div>
+                  <img
+                    src={item.img}
+                    alt="cover"
+                    className="z-10 absolute bottom-0"
+                  />
+                </div>
+
+                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                  {item.title}
+                </h1>
+
+                <p
+                  className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                  style={{
+                    color: "#BEC1DD",
+                    margin: "1vh 0",
+                  }}
+                >
+                  {item.des}
+                </p>
+
+                <div className="flex items-center justify-between mt-7 mb-3">
+                  <div className="flex items-center">
+                    {item.iconLists.map((icon, index) => (
+                      <div
+                        key={index}
+                        className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                        style={{
+                          transform: `translateX(-${5 * index + 2}px)`,
+                        }}
+                      >
+                        <img src={icon} alt="icon5" className="p-2" />
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="flex justify-center items-center">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex lg:text-xl md:text-xs text-sm text-purple hover:underline"
+                    >
+                      Linkedin
+                    </a>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </div>
+                </div>
+              </PinContainer>
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
