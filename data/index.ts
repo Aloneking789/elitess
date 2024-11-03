@@ -80,6 +80,15 @@ export const TMembers = [
     link: "https://www.linkedin.com/in/vishnu-dubey-2423b0254/",
   },
   {
+    id: 1,
+    title: "Abhijeet Gupta",
+    des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
+    // img: "/p1.svg",
+    img: "/abhi.jpeg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
+  },
+  {
     id: 2,
     title: "Abhay Pandey",
     des: "Google Developer Group Organizer at DDU, known for driving growth through technical skills in Firebase and React.js. His leadership fosters a thriving, knowledge-sharing tech community within the Google Developer Students Club",
