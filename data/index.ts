@@ -71,13 +71,13 @@ export const gridItems = [
 
 export const TMembers = [
   {
-    id: 1,
-    title: "Abhijeet Gupta",
-    des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
-    // img: "/p1.svg",
-    img: "/abhi.jpeg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
+    id: 4,
+    title: "Vishnu Dubey",
+    des: "Passionate Full Stack Developer skilled in Node.js, Express.js, MongoDB, and React.js. Dedicated to building intuitive, scalable applications, Vishnu is an active community contributor through hackathons and open-source projects",
+    img: "/vishnu.jpg",
+    // img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.linkedin.com/in/vishnu-dubey-2423b0254/",
   },
   {
     id: 2,
@@ -88,6 +88,15 @@ export const TMembers = [
     link: "https://www.linkedin.com/in/abhay-pandey-595818253/",
   },
   {
+    id: 1,
+    title: "Abhijeet Gupta",
+    des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
+    // img: "/p1.svg",
+    img: "/abhi.jpeg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
+  },
+  {
     id: 3,
     title: "Vaishnavi Singh",
     des: "Experienced Full Stack Developer with expertise in Node.js, Express.js, MongoDB, and React.js, focused on creating reliable, impactful web applications. She is deeply engaged in the tech community, contributing through hackathons and knowledge sharing.",
@@ -95,15 +104,6 @@ export const TMembers = [
     img: "/vaishnavi.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.linkedin.com/in/vaishnavi-singh-33a5b2271/",
-  },
-  {
-    id: 4,
-    title: "Vishnu Dubey",
-    des: "Passionate Full Stack Developer skilled in Node.js, Express.js, MongoDB, and React.js. Dedicated to building intuitive, scalable applications, Vishnu is an active community contributor through hackathons and open-source projects",
-    img: "/vishnu.jpg",
-    // img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.linkedin.com/in/vishnu-dubey-2423b0254/",
   },
 ];
 export const projects = [
