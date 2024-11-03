@@ -71,7 +71,7 @@ export const gridItems = [
 
 export const TMembers = [
   {
-    id: 4,
+    id: 1,
     title: "Vishnu Dubey",
     des: "Passionate Full Stack Developer skilled in Node.js, Express.js, MongoDB, and React.js. Dedicated to building intuitive, scalable applications, Vishnu is an active community contributor through hackathons and open-source projects",
     img: "/vishnu.jpg",
@@ -80,7 +80,7 @@ export const TMembers = [
     link: "https://www.linkedin.com/in/vishnu-dubey-2423b0254/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Abhijeet Gupta",
     des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
     // img: "/p1.svg",
@@ -89,24 +89,16 @@ export const TMembers = [
     link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Abhay Pandey",
     des: "Google Developer Group Organizer at DDU, known for driving growth through technical skills in Firebase and React.js. His leadership fosters a thriving, knowledge-sharing tech community within the Google Developer Students Club",
     img: "/abhay.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.linkedin.com/in/abhay-pandey-595818253/",
   },
-  // {
-  //   id: 1,
-  //   title: "Abhijeet Gupta",
-  //   des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
-  //   // img: "/p1.svg",
-  //   img: "/abhi.jpeg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-  //   link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
-  // },
+
   {
-    id: 3,
+    id: 4,
     title: "Vaishnavi Singh",
     des: "Experienced Full Stack Developer with expertise in Node.js, Express.js, MongoDB, and React.js, focused on creating reliable, impactful web applications. She is deeply engaged in the tech community, contributing through hackathons and knowledge sharing.",
     // img: "/p3.svg",
