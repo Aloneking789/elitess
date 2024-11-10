@@ -20,6 +20,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/elite.png" sizes="any" />
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "443af3500d1b48dda329c81c04ca5a7c"}'></script>
       </head>
       <body className={inter.className}>
         <ThemeProvider
