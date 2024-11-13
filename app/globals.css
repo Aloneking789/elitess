@@ -83,3 +83,10 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
+/* Ensure your button has a higher z-index and correct position */
+button {
+  position: relative; /* or 'absolute' if necessary */
+  z-index: 10;        /* Set a high z-index to make it clickable */
+}
+
