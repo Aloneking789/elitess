@@ -84,7 +84,7 @@ export const TMembers = [
     title: "Abhijeet Gupta",
     des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
     // img: "/p1.svg",
-    img: "/abhi.jpeg",
+    img: "/abhi.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
   },
@@ -116,7 +116,7 @@ export const TechMembers = [
     img: "/adarsh.png",
     // img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.linkedin.com/in/vishnu-dubey-2423b0254/",
+    link: "https://www.linkedin.com/in/aadarsh-chauhan-2800b0262/",
   },
   {
     id: 2,
@@ -125,7 +125,7 @@ export const TechMembers = [
     // img: "/p1.svg",
     img: "/prashant.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
+    link: "https://www.linkedin.com/in/itspraskpatel/",
   },
   {
     id: 3,
@@ -133,7 +133,7 @@ export const TechMembers = [
     des: "Passionate Backend developer skilled in Node.js, Express.js, MongoDB, and React.js. Dedicated to building intuitive, scalable applications",
     img: "/satyam.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://www.linkedin.com/in/abhay-pandey-595818253/",
+    link: "https://www.linkedin.com/in/satyam-pandey-163669310/",
   },
 ];
 export const socialMediaMembers = [
@@ -149,28 +149,28 @@ export const socialMediaMembers = [
   {
     id: 2,
     title: "Prerna Srivastava",
-    des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
+    des: "Skilled software engineer and tech enthusiast, passionate about digital innovation, accessible solutions, and community impact. Proficient in coding, public speaking, and platform strategy.",
     // img: "/p1.svg",
-    img: "/abh.jpeg",
+    img: "/psrivastav.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
+    link: "https://www.linkedin.com/in/prerna-srivastava-2b6482282",
   },
   {
     id: 3,
     title: "Alok Kumar",
-    des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
+    des: "Social Media Strategist & Expertise in Video Editing and hands on experience in Adobe Premiere Pro, After Effects, Photoshop, Illustrator, and other creative tools.",
     // img: "/p1.svg",
-    img: "/abh.jpeg",
+    img: "/alok.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
+    link: "http://www.linkedin.com/in/alok-kumar-nishad-059933333",
   },
   {
     id: 4,
     title: "Ritu Raj",
-    des: "Google Developer Group Organizer at DDU, known for driving growth through technical skills in Firebase and React.js. His leadership fosters a thriving, knowledge-sharing tech community within the Google Developer Students Club",
-    img: "/abha.png",
+    des: "Comprehensive expertise in offensive security, threat analysis, application testing, and strategic leadership",
+    img: "/ritu.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://www.linkedin.com/in/abhay-pandey-595818253/",
+    link: "https://www.linkedin.com/in/ritu-raj-rajput-b7743a261/",
   },
 
 ];
