@@ -399,7 +399,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <p className="uppercase tracking-widest text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 drop-shadow-lg mb-4 animate-pulse">
+            <p className="uppercase tracking-widest text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 drop-shadow-lg mb-4 ">
               <span className="text-pink-500">Elite</span> Software Solutions
             </p>
           </motion.div>
