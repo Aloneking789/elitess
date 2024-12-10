@@ -17,7 +17,9 @@ const Grid = () => {
           {TMembers.map((item) => (
             <div
               className="flex-none w-[20rem] h-[32.5rem] flex items-center justify-center"
-              key={item.id}
+              key={item.id} onClick={()=>{
+                window.location.href = item.link
+              }}
             >
               <PinContainer title="Elite" href="https://twitter.com">
                 <div className="relative flex items-center justify-center overflow-hidden h-[25vh] sm:h-[30vh] md:h-[35vh] lg:h-[38vh] mb-10">
