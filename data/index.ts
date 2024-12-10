@@ -84,7 +84,7 @@ export const TMembers = [
     title: "Abhijeet Gupta",
     des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
     // img: "/p1.svg",
-    img: "/abhi.jpg",
+    img: "/abhiImg.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
   },
@@ -135,17 +135,17 @@ export const TechMembers = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.linkedin.com/in/satyam-pandey-163669310/",
   },
+  {
+    id: 4,
+    title: "Diwakar Chaurasiya",
+    des: "Full Stack Developer with expertise in Node.js, Express.js, MongoDB, and React.js, focused on creating reliable, impactful web applications. He is deeply engaged in the tech community, contributing through hackathons and knowledge sharing.",
+    img: "/diwa.jpg",
+    // img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/re.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.linkedin.com/in/diwakar-chaurasiya/",
+  },
 ];
 export const socialMediaMembers = [
-  {
-    id: 1,
-    title: "Antara Pandey",
-    des: "Passionate Full Stack Developer skilled in Node.js, Express.js, MongoDB, and React.js. Dedicated to building intuitive, scalable applications, Vishnu is an active community contributor through hackathons and open-source projects",
-    img: "/vis.jpg",
-    // img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.linkedin.com/in/vishnu-dubey-2423b0254/",
-  },
   {
     id: 2,
     title: "Prerna Srivastava",
@@ -183,7 +183,7 @@ export const projects = [
     des: "Invest in a Sustainable Future ,Join our community solar platform and make a difference while earning returns. Invest in local solar projects and help build a greener tomorrow",
     // img: "/p1.svg",
     img: "/solarshare.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/re.svg", "/fm.svg"],
     link: "https://solarshare.netlify.app/",
   },
   {
@@ -212,6 +212,15 @@ export const projects = [
     // img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://ezymetrics-five.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "EcomElite",
+    des: "A fully functional e-commerce website built using MERN stack.",
+    img: "/ecom.png",
+    // img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/gsap.svg"],
+    link: "https://mern-ecommerce-site-elbc.vercel.app/",
   },
 ];
 
