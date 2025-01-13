@@ -156,15 +156,6 @@ export const socialMediaMembers = [
     link: "https://www.linkedin.com/in/prerna-srivastava-2b6482282",
   },
   {
-    id: 3,
-    title: "Alok Kumar",
-    des: "Social Media Strategist & Expertise in Video Editing and hands on experience in Adobe Premiere Pro, After Effects, Photoshop, Illustrator, and other creative tools.",
-    // img: "/p1.svg",
-    img: "/alok.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "http://www.linkedin.com/in/alok-kumar-nishad-059933333",
-  },
-  {
     id: 4,
     title: "Ritu Raj",
     des: "Comprehensive expertise in offensive security, threat analysis, application testing, and strategic leadership",
