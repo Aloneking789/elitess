@@ -226,7 +226,7 @@ export const projects = [
     des: "A QR Link portal to access important links of Radha Madhav Shop",
     img: "/radhamadhav.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/gsap.svg"],
-    link: "https://www.bedhadakkhabar.com/",
+    link: "https://linktr.ee/radha_madhav",
   },
 ];
 
