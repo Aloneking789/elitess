@@ -220,6 +220,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/gsap.svg"],
     link: "https://www.bedhadakkhabar.com/",
   },
+  {
+    id: 7,
+    title: "Radha Madhav QR Link System",
+    des: "A QR Link portal to access important links of Radha Madhav Shop",
+    img: "/radhamadhav.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/gsap.svg"],
+    link: "https://www.bedhadakkhabar.com/",
+  },
 ];
 
 export const testimonials = [
