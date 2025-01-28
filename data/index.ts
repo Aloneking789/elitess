@@ -84,7 +84,7 @@ export const TMembers = [
     title: "Abhijeet Gupta",
     des: "Full Stack Developer at Euonus IT, specializing in backend systems that ensure seamless user experiences through efficient APIs and database management. His background in Computer Science and strong DSA skills reinforce his robust web development capabilities.",
     // img: "/p1.svg",
-    img: "/abhiImg.jpeg",
+    img: "/abhiImg.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://www.linkedin.com/in/abhijeet-gupta-552ba5208/",
   },
@@ -200,7 +200,6 @@ export const projects = [
     title: "Ezymetrics",
     des: "A data visualization tool that helps you understand your data better and make informed decisions.",
     img: "/ezymetrics.png",
-    // img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://ezymetrics-five.vercel.app/",
   },
@@ -212,6 +211,14 @@ export const projects = [
     // img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/gsap.svg"],
     link: "https://mern-ecommerce-site-elbc.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Bedhadak News website (Gorakhpur)",
+    des: "A fully functional News Portal",
+    img: "/bdhk.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/gsap.svg"],
+    link: "https://www.bedhadakkhabar.com/",
   },
 ];
 
@@ -307,16 +314,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link : "https://github.com/ag21o9"
+    link: "https://github.com/ag21o9"
   },
   {
     id: 2,
     img: "/twit.svg",
-    link : "https://x.com/vishnuzdubey"
+    link: "https://x.com/vishnuzdubey"
   },
   {
     id: 3,
     img: "/link.svg",
-    link : "https://www.linkedin.com/company/elite-software-solution"
+    link: "https://www.linkedin.com/company/elite-software-solution"
   },
 ];
